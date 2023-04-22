@@ -1,0 +1,16 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../blocks/root/root.css");
+@import url("../blocks/wpapper/wrapper.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/header/__lang-switches/header__lang-switches.css");
+@import url("../blocks/header/__lang-switch/header__lang-switch.css");
+@import url("../blocks/header/__lang-switch/_russian/header__lang-switch_russian.css");
+@import url("../blocks/header/__lang-switch/_english/header__lang-switch_english.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/menu/__list/menu__list.css");
+@import url("../blocks/menu/__item/menu__item.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/menu/__link/menu__link.css");
+@import url("../blocks/lead/lead.css");
