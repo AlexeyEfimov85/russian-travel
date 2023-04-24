@@ -7,6 +7,10 @@
     color: rgba(255, 255, 255, 1) ;
 }
 
+.menu__link:hover {
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 320px) {
     .menu__link {
         font-style: normal;
@@ -15,3 +19,4 @@
         line-height: 1;
     }
 }
+
