@@ -1,0 +1,12 @@
+.card__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 320px) {
+    .card__website{
+        margin-bottom: 0;
+    }
+}

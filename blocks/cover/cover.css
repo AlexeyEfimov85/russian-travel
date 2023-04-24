@@ -1,0 +1,9 @@
+.cover {
+    max-width: 92.5vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
