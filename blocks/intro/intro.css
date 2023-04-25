@@ -1,0 +1,34 @@
+.intro {
+    width: 77vw;
+    margin: auto;
+    padding-right: calc(77% - 690px);
+    box-sizing: border-box;
+    margin-bottom: 92px;
+}
+
+/*Чтобы блок intro при сжатии оставался с таким же полем слева как и Lead, я задал ему такую же ширину и margin auto
+и добавил правый паддинг, который равен ширине секции (Lead и Intro) за вычетом ширины 690px из макета. В результате при 
+сжатии схлопывается паддинг */
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        width: 90.625vw;
+        padding-right: calc(90.625vw - 690px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 93.75vw;
+        padding: 0;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        width: 90vw;
+        padding: 0;
+        margin-bottom: 64px;
+}
+}

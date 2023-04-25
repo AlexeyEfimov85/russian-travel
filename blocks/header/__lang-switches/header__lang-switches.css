@@ -1,0 +1,7 @@
+.header__lang-switches {
+    display: flex;
+    min-width: 80px;
+    justify-content: space-between;
+    margin: 0;
+    align-items: end;
+}
