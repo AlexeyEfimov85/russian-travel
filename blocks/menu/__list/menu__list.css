@@ -1,11 +1,17 @@
 .menu__list {
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
     padding: 0;
+    max-width: 465px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+    .menu__list {
+        max-width: 465px;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .menu__list {
         flex-direction: column;
     }

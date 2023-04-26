@@ -1,9 +1,8 @@
 .intro {
     width: 77vw;
-    margin: auto;
     padding-right: calc(77% - 690px);
     box-sizing: border-box;
-    margin-bottom: 92px;
+    margin: 0 auto 92px;
 }
 
 /*Чтобы блок intro при сжатии оставался с таким же полем слева как и Lead, я задал ему такую же ширину и margin auto
@@ -21,14 +20,13 @@
     .intro {
         width: 93.75vw;
         padding: 0;
-        margin-bottom: 88px;
+        margin: 0 auto 88px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
         width: 90vw;
-        padding: 0;
-        margin-bottom: 64px;
-}
+        margin: 0 auto 64px;
+} 
 }

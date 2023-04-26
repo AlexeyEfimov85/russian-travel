@@ -1,9 +1,35 @@
 .cover {
-    max-width: 92.5vw;
+    max-width: 1184px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: minmax(740px, max-content);
     margin: auto;
-    align-items: center;
     justify-items: center;
+    box-sizing: border-box;
+    background-image: url("../../images/cover-trains.jpg");
+    /*пока только таким образом смог сделать, с ::before и ::after не смог разобраться до конца*/
+    z-index: 5;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*.cover:hover .cover__overlay {
+    opacity: 0.8;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}*/
+
+
+@media screen and (max-width: 1280px) {
+    .cover {
+        max-width: 92.5vw;
+        grid-template-rows: minmax(calc(92.5vw * 0.625), max-content);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 100vw;
+        grid-template-rows: minmax(calc(100vw * 0.625), max-content);
+    }
 }

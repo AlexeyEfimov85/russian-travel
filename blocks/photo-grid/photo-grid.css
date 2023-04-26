@@ -12,7 +12,6 @@
     .photo-grid {
         width: 90.625vw;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
         gap: 14px;
         margin-bottom: 82px;
     }
@@ -22,7 +21,6 @@
     .photo-grid {
         width: 93.75vw;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
         gap: 16px;
         margin-bottom: 88px;
     }
@@ -32,7 +30,6 @@
     .photo-grid {
         width: 90vw;
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
         gap: 12px;
         margin-bottom: 64px;
     }

@@ -5,8 +5,10 @@
     margin-bottom: 8px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .card__website{
+        width: 90vw;
+        margin: auto;
         margin-bottom: 0;
     }
 }

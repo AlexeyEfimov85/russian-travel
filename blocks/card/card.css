@@ -14,7 +14,6 @@
 @media screen and (max-width: 1024px) {
     .card {
         grid-template-columns: 440px 1fr;
-        grid-template-rows: auto;
         gap: 32px;
     }
 }
@@ -23,15 +22,14 @@
     .card {
         grid-template-columns: 44vw 1fr; /*задал это значение так как в интервале 768-320 
         колонка с текстом вела себя совсем плохо при фиксированной величине колонки с картинкой*/
-        grid-template-rows: auto;
         gap: 28px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .card {
+        max-width: 100vw;
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
         gap: 32px;
     }
 }
