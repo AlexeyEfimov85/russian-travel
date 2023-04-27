@@ -9,8 +9,9 @@
     background-image: url("../../images/cover-trains.jpg");
     /*пока только таким образом смог сделать, с ::before и ::after не смог разобраться до конца*/
     z-index: 5;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 /*.cover:hover .cover__overlay {
@@ -22,14 +23,14 @@
 
 @media screen and (max-width: 1280px) {
     .cover {
-        max-width: 92.5vw;
+        max-width: 92.5%;
         grid-template-rows: minmax(calc(92.5vw * 0.625), max-content);
     }
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
-        max-width: 100vw;
+        max-width: 100%;
         grid-template-rows: minmax(calc(100vw * 0.625), max-content);
     }
 }

@@ -1,5 +1,5 @@
 .intro {
-    width: 77vw;
+    width: 77%;
     padding-right: calc(77% - 690px);
     box-sizing: border-box;
     margin: 0 auto 92px;
@@ -11,14 +11,14 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        width: 90.625vw;
+        width: 90.625%;
         padding-right: calc(90.625vw - 690px);
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        width: 93.75vw;
+        width: 93.75%;
         padding: 0;
         margin: 0 auto 88px;
     }
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 320px) {
     .intro {
-        width: 90vw;
+        width: 90%;
         margin: 0 auto 64px;
 } 
 }

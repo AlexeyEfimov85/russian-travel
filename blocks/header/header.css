@@ -1,7 +1,9 @@
 .header {
-    width: 92.5vw;
+    max-width: 92.5%;
+    /*учитывая что контейнер 1280px решил все таки так сделать, мне так понятнее, скролов не вижу*/
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 28px auto 0;
     min-height: 52px;
     box-sizing: border-box;
@@ -9,19 +11,19 @@
 
 @media screen and (max-width: 1024px) {
     .header {
-        max-width: 90.625vw;
+        max-width: 90.625%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        max-width: 720px;
+        max-width: 93.75%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        max-width: 288px;
+        max-width: 90%;
         min-height: 42px;
         margin: 16px auto 0;
     }

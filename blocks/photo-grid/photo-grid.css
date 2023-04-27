@@ -1,5 +1,5 @@
 .photo-grid {
-    width: 92.5vw;  
+    width: 92.5%;  
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

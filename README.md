@@ -1,1 +1,5 @@
-https://alexeyefimov85.github.io/russian-travel/
+Название проекта: "Путешествие по России"
+Дата релиза: 27.04.2023
+Автор: Ефимов Алексей
+Технологии: HTML и CSS
+Адрес в интернете: https://alexeyefimov85.github.io/russian-travel/

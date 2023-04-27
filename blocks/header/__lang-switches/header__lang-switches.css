@@ -1,7 +1,16 @@
 .header__lang-switches {
     display: flex;
-    min-width: 80px;
+    width: 77px;
+    /*ширина задана чтобы сами переключатели не слиплись между собой, модификаторы для переключателей удалены после прошлому ревью*/
     justify-content: space-between;
     margin: 0;
     align-items: end;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-switches {
+        font-size: 18px;
+        line-height: 1.11;
+        width: 62px;
+    }
 }

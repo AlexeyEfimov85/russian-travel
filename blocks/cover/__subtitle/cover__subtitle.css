@@ -1,5 +1,4 @@
 .cover__subtitle {
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
@@ -12,6 +11,8 @@
     .cover__subtitle {
         font-size: 14px;
         line-height: 1.14;
+        max-width: 288px;
+        margin-top: 16px;
 
     }
 }
