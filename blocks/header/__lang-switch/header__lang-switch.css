@@ -11,6 +11,15 @@
     opacity: 0.8;
 }
 
+.header__lang-switch:nth-child(1n) {
+    margin-right: 18px;
+    /*с прицелом на добавление дополнительных ссылок*/
+}
+
+.header__lang-switch:last-child {
+    margin-right: 0;
+}
+
 @media screen and (max-width: 320px) {
     .header__lang-switch {
         font-size: 18px;
